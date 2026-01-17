@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aarnavsoni.github.io/ftcdragonwarrior/sitemap.xml
+Sitemap: https://ftcdragonwarriors.github.io/website/sitemap.xml
