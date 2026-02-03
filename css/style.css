@@ -312,7 +312,7 @@ img {
     background-color: var(--gray-100);
     /* Note: URL needs to be relative to CSS file, or absolute from root. 
        If css/style.css, then ../assets/ is correct */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/school-campus.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/hero-robot.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -344,7 +344,17 @@ img {
     font-size: 2rem;
     font-weight: 600;
     color: var(--ftc-red);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-description {
+    font-size: 1.25rem;
+    font-weight: 500;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.4;
+    color: var(--primary-white);
+    opacity: 0.95;
 }
 
 .hero-tagline {
@@ -370,6 +380,22 @@ img {
 .home-mission p {
     font-size: 1.2rem;
     color: var(--gray-800);
+}
+
+.home-challenge {
+    background-color: var(--gray-100);
+    text-align: center;
+}
+
+.challenge-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.challenge-content p {
+    font-size: 1.15rem;
+    color: var(--gray-800);
+    margin-bottom: 1.5rem;
 }
 
 .quick-links-grid {
@@ -732,6 +758,7 @@ img {
 .social-btn:hover {
     opacity: 0.9;
 }
+
 /* =========================================
    Member Card (from MemberCard.css)
    ========================================= */
@@ -799,4 +826,3 @@ img {
     color: var(--text-dark);
     line-height: 1.5;
 }
-

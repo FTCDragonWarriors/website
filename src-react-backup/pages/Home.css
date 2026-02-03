@@ -1,0 +1,119 @@
+.hero-section {
+    text-align: center;
+    padding: 6rem 0;
+    background-color: var(--gray-100);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/school-campus.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-top: -1px;
+    /* connected to navbar? no, sticky */
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-logo {
+    max-width: 200px;
+    margin: 0 auto 1.5rem;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+.hero-team-name {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--primary-white);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.hero-team-number {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--ftc-red);
+    margin-bottom: 1rem;
+}
+
+.hero-tagline {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.home-mission {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home-mission p {
+    font-size: 1.2rem;
+    color: var(--gray-800);
+}
+
+.quick-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.quick-link-card {
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-link-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-color: var(--ftc-red);
+}
+
+.quick-link-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--ftc-blue);
+}
+
+.quick-link-card p {
+    color: var(--gray-800);
+}
+
+@media (max-width: 768px) {
+    .hero-team-name {
+        font-size: 2.5rem;
+    }
+}
+
+.home-school-image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

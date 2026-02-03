@@ -1,0 +1,71 @@
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.contact-card {
+    padding: 3rem;
+    background-color: var(--gray-100);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--ftc-red);
+}
+
+.contact-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-dark);
+}
+
+.contact-card p,
+.contact-card a {
+    font-size: 1.1rem;
+    color: var(--gray-800);
+}
+
+.contact-card a:hover {
+    color: var(--ftc-blue);
+    text-decoration: underline;
+}
+
+.social-links-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    transition: opacity 0.3s;
+}
+
+.btn-youtube {
+    background-color: #FF0000;
+}
+
+.btn-instagram {
+    background-color: #E1306C;
+}
+
+.social-btn:hover {
+    opacity: 0.9;
+}
